@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabkeeper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Tabkeeper</h1>
+    <input id="group-name" placeholder="Group name" />
+    <button id="save-group">Save open tabs</button>
+    <ul id="groups"></ul>
+    <section id="assistant-section">
+      <h2>Tabkeeper AI</h2>
+      <ul id="assistant-messages"></ul>
+      <form id="assistant-form">
+        <input id="assistant-input" placeholder="Ask about your tab groups" />
+        <button id="assistant-submit" type="submit">Send</button>
+      </form>
+    </section>
+    <script src="popup.js"></script>
+  </body>
+</html>
